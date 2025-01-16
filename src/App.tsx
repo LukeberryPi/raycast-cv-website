@@ -81,6 +81,7 @@ function App() {
             <motion.a
               className="items-center flex gap-2 font-bold text-xl"
               href="https://x.com/lukeberrypi"
+              target="_blank"
               whileHover={{ scale: 1.05 }}
             >
               <RaycastLogo />
@@ -126,8 +127,8 @@ function App() {
           </span>
         </h1>
         <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
-          I'm a British-Brazilian Developer with an unhealthy obsession for
-          Raycast. My biggest accomplishment was{" "}
+          I'm a British-Brazilian Fullstack Developer with an unhealthy
+          obsession for Raycast. My biggest accomplishment was{" "}
           <a
             className="text-zinc-200 underline underline-offset-2 decoration-[#FF6362]"
             target="_blank"
@@ -222,7 +223,7 @@ function App() {
           <p className="text-center mb-16 text-lg text-zinc-400">
             I have HUGE potential to be a professional that wears many hats.
           </p>
-          <div className="px-6 md:px-12 lg:px-24 ">
+          <div className="px-4 max-w-prose mx-auto">
             <ul className="list-disc space-y-4">
               <li className="text-zinc-400">
                 <span className="text-zinc-100">
